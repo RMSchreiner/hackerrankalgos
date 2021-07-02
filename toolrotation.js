@@ -1,3 +1,9 @@
+//Algorithm that rotates a tool set in a circle. 
+//From the current starting Index to the selected tool. 
+//It takes the shortest route ascending or descending through the index
+
+
+
 function toolchanger(tools, startIndex, target) {
     // Write your code here
     let toolIndex = tools.indexOf(target); //index of intended tool
